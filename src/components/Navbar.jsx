@@ -1,29 +1,29 @@
 import React from 'react'
-import profile from '../assets/images/profile.jpg'
-import panda from '../assets/images/panda.png'
+import tabIcon from '../assets/images/tabIcon.png'
 
 const Navbar = () => {
     return (
     <>
-        <div className="navbar bg-neutral-100">
+        <nav className="navbar sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 border-b border-gray-150">
             <div className="flex-1">
                 <a className="btn btn-ghost text-xl">
                     {/* <!-- Logo --> */}
                     <img
                         className="h-10 w-auto"
-                        src={panda}
-                        alt="React Jobs"
+                        src={tabIcon}
+                        alt="tabIcon"
                     />
                 </a>
             </div>
-            <div className="flex-none">
+            <div className="flex-none align-left">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>About</a></li>
-                    <li><a>Experiences</a></li>
-                    <li><a>Projects</a></li>
+                    <li><a href='#'>About</a></li>
+                    <li><a href='#'>Experiences</a></li>
+                    <li><a href='#'>Projects</a></li>
+                    <li><a href='#'>Contact</a></li>
                 </ul>
             </div>
-        </div>
+        </nav>
     </>
     )
 }

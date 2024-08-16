@@ -10,11 +10,12 @@ export default {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
       },
-      gridTemplateColumns: {
-        '70/30': '70% 28%',
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to bottom, #fef9d7 0%, #fed6e3 50%, #e7f0fd 100%)',  
       },
     },
   },
+
   plugins: [
     require('daisyui'),
   ],
