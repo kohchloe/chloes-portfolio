@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center">
 
-            <div className="text-center lg:text-left lg:ml-20">
+            <div className="text-center lg:text-left lg:ml-32">
                 <h1 className="font-extrabold text-4xl sm:text-3xl md:text-5xl">
                     Hello, I'm Chloe!
                 </h1>
@@ -57,7 +57,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div style={{ maxWidth: '30%' }} className="lg:mr-10">
+            <div style={{ maxWidth: '30%' }} className="lg:mr-20">
                 <img
                     src={profile2}
                     alt="Profile picture"

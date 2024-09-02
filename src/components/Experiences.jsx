@@ -11,7 +11,7 @@ const Experiences = () => {
             
             {/* Tabs */}
             <div role="tablist" className="tabs tabs-bordered">
-            <span class="tab w-[calc((100vw-40vw)/2)]">&nbsp;</span>
+            <span class="tab w-[calc((100vw-25vw)/2)]">&nbsp;</span>
 
                 <input
                     type="radio"
