@@ -28,7 +28,7 @@ const Portfolio = () => {
                   myElementIsVisible ? "appear" : ""
                 }`}
               >
-                <h2 className="text-black pt-10 font-bold sm:text-2xl md:text-5xl">
+                <h2 className="text-black text-4xl pt-10 pb-4 font-bold sm:text-2xl md:text-5xl">
                     My Analytics & Development Projects
                 </h2>
                 <p className="text-black font-regular text-base lg:text-lg sm:w-5/6 mx-auto md:mx-0">
