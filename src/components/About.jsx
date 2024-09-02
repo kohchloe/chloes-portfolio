@@ -74,7 +74,7 @@ const About = () => {
                 <Lottie animationData={girlAnimation} />
             </div> */}
 
-            <div style={{ maxWidth: '40%' }} className="mr-10">
+            <div style={{ maxWidth: '30%' }} className="mr-10">
                 <img
                     src={profile2}
                     alt="Profile picture"
