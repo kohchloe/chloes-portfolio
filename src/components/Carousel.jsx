@@ -29,14 +29,14 @@ const DesignCarousel = () => {
         <Carousel responsive={responsive} className="mx-10">
             <div>
                 <CarouselCard
-                mockup={lifeBelowWater}
-                title="Life Below Water"
-                description="An interactive website to increase awareness and action for marine conservation."
-                link="https://github.com/kohchloe/WAD2-LifeBelowWater"
+                mockup={munchBunch}
+                title="MunchBunch"
+                description="High-fidelity prototype for a social food app that helps users decide on a restaurant to dine at."
+                link="#"
                 linkInfo="View Figma Prototype"
                 />
             </div>
-
+            
             <div>
                 <CarouselCard
                 mockup={SIA}
@@ -56,17 +56,16 @@ const DesignCarousel = () => {
                 linkInfo="View Figma Prototype"
                 />
             </div>
-
+            
             <div>
                 <CarouselCard
-                mockup={munchBunch}
-                title="MunchBunch"
-                description="High-fidelity prototype for a social food app that helps users decide on a restaurant to dine at."
-                link="#"
+                mockup={lifeBelowWater}
+                title="Life Below Water"
+                description="An interactive website to increase awareness and action for marine conservation."
+                link="https://github.com/kohchloe/WAD2-LifeBelowWater"
                 linkInfo="View Figma Prototype"
                 />
             </div>
-            
         </Carousel>
         
     );

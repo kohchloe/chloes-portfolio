@@ -2,17 +2,17 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <section id="footer" className="footer bg-primary text-primary-content p-6 mt-14">
+    <section id="footer" className="footer bg-primary text-primary-content p-6 mt-24">
       <div className="flex flex-col items-center text-center md:flex-row md:justify-between md:text-left w-full">
-        <aside className="mb-6 md:mb-0 md:ml-6 text-sm md:text-base">
+        <aside className="mb-6 md:mb-0 md:ml-8 text-sm md:text-base">
           <p className="font-bold">
             Designed & developed by Chloe Koh
             <br />
           </p>
-          <p>Using Vite, React.js, Tailwind CSS, DaisyUI.</p>
+          <p>Using Vite, React.js, Tailwind CSS, DaisyUI</p>
           <p>Last updated {new Date().getFullYear()}.</p>
         </aside>
-        <nav className="mt-4 md:mt-0 md: mr-6">
+        <nav className="mt-4 md:mt-0 md:mr-8">
           <p className="font-bold mb-2 text-center text-sm md:text-base">
             Let's connect!
           </p>

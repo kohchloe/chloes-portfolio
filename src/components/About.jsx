@@ -5,13 +5,13 @@ const About = () => {
   return (
     <section id="about" className="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center">
 
-            <div className="text-center lg:text-left lg:ml-32">
+            <div className="text-center lg:text-left lg:ml-56">
                 <h1 className="font-extrabold text-4xl sm:text-3xl md:text-5xl">
                     Hello, I'm Chloe!
                 </h1>
                 <p className="my-4 sm:text-sm md:text-lg lg:text-xl">
                 I'm driven by a passion for design-centric products and leveraging technology to create meaningful solutions. 
-                <br/><br/>Scroll to find out more about my experiences and projects.
+                <br/><br/>Scroll down to find out more about my experiences and projects ◡̈
                 </p>
 
                 <div className="flex justify-center lg:justify-start">
@@ -57,7 +57,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div style={{ maxWidth: '30%' }} className="lg:mr-20">
+            <div style={{ maxWidth: '30%' }} className="lg:mr-32">
                 <img
                     src={profile2}
                     alt="Profile picture"

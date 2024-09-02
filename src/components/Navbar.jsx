@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 border-b border-gray-150">
-                <div className="flex items-center justify-between w-full px-4 lg:px-0">
+                <div className="flex items-center justify-between w-full px-4">
                     {/* Logo */}
                     <a href='#about'>
                         <img
@@ -20,10 +20,10 @@ const Navbar = () => {
 
                     {/* Desktop Menu */}
                     <div className="hidden lg:flex gap-8">
-                        <ul className="menu menu-horizontal px-1">
+                        <ul className="menu menu-horizontal px-1 font-semibold">
                             <li><a href='#about'>About</a></li>
                             <li><a href='#experiences'>Experiences</a></li>
-                            <li><a href='#development'>Development</a></li>
+                            <li><a href='#development'>Develop</a></li>
                             <li><a href='#projects'>Design</a></li>
                             <li><a href='#footer'>Contact</a></li>
                         </ul>
@@ -44,10 +44,10 @@ const Navbar = () => {
                 {/* Mobile Menu */}
                 {toggleMenu && (
                     <div className="lg:hidden bg-white bg-opacity-10 absolute top-16 left-0 right-0 p-4 shadow-md">
-                        <ul className="flex flex-col gap-4">
+                        <ul className="flex flex-col gap-4 font-bold">
                             <li><a href='#about'>About</a></li>
                             <li><a href='#experiences'>Experiences</a></li>
-                            <li><a href='#development'>Development</a></li>
+                            <li><a href='#development'>Develop</a></li>
                             <li><a href='#projects'>Design</a></li>
                             <li><a href='#footer'>Contact</a></li>
                         </ul>

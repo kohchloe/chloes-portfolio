@@ -18,7 +18,7 @@ const Portfolio = () => {
 
         <section
           id="development"
-          className="max-w-screen-xl mx-auto px-6 md:px-12 2xl:px-0 space-y-32"
+          className="max-w-screen-xl mx-auto px-6 md:px-8 space-y-32"
         >
           <article className="space-y-24 md:space-y-0 md:grid grid-cols-2">
             <div id="header" className="">
