@@ -2,16 +2,14 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center bg-primary text-primary-content p-10">
+    <section id="footer" className="footer footer-center bg-primary text-primary-content p-6 mt-14">
         <aside>
             <p className="font-bold">
-            Designed & built by Chloe
+            Designed & development by Chloe Koh
             <br />
-            Last updated in {new Date().getFullYear()}
-            <br />
-            ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
             </p>
-            <p>Using Vite, React.js, Tailwind CSS, DaisyUI, Lottie</p>
+            <p>Using Vite, React.js, Tailwind CSS, DaisyUI.</p>
+            <p>Last updated {new Date().getFullYear()}.</p>
         </aside>
         <nav>
             <p className="font-bold">
@@ -37,8 +35,8 @@ const Footer = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 version="1.1"
-                width="50"
-                height="50"
+                width="45"
+                height="45"
                 viewBox="0 0 24 24"
                 className="fill-current">
                     <path fill="#FFFFFF" d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577v-2.234c-3.338.726-4.043-1.415-4.043-1.415-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.084 1.838 1.237 1.838 1.237 1.07 1.835 2.809 1.305 3.492.998.108-.775.419-1.305.762-1.605-2.665-.304-5.467-1.333-5.467-5.931 0-1.31.467-2.38 1.235-3.22-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.98-.399 3-.404 1.02.005 2.043.138 3 .404 2.293-1.552 3.298-1.23 3.298-1.23.653 1.652.243 2.873.12 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.807 5.624-5.48 5.92.43.37.814 1.096.814 2.207v3.277c0 .32.22.694.825.577C20.565 21.797 24 17.302 24 12c0-6.627-5.373-12-12-12z"/>
@@ -60,7 +58,7 @@ const Footer = () => {
 
             </div>
         </nav>
-    </footer>
+    </section>
   )
 }
 

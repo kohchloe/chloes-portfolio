@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaMapMarker } from 'react-icons/fa'
 import lifeBelowWater from '../assets/images/lifeBelowWater.png'
 import merGIS from '../assets/images/merGIS.png'
 import sentiTunes from '../assets/images/sentiTunes.png'
@@ -10,18 +9,18 @@ import PME from '../assets/images/PME.png'
 
 const ProjectCards = () => {
   return (
-    <section className="py-4">
 
-      <div className="text-center ml-20">
-        <h2 className="text-4xl pt-10 font-bold sm:text-5xl md:text-6xl">
-            My Projects
-        </h2>
-      </div>
+    <section id='projects'>
+      <div className="container-xl lg:container m-auto py-10">
+        <div className="text-center ml-20">
+          <h2 className="text-4xl pt-10 pb-4 font-bold sm:text-5xl md:text-6xl">
+              My Design Portfolio
+          </h2>
+          <p className="text-black font-regular text-base lg:text-lg sm:w-5/6 mx-auto md:mx-0">I believe good design is the cornerstone of every project, check out some of my design works here ◡̈</p>
+        </div>
 
-      <div className="container-xl lg:container m-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 rounded-lg">
-
-          {/* <!-- Project Card 1 --> */}
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 rounded-lg">
+        
           <div class="card bg-base-100 w-98 shadow-xl">
             <figure class="px-8 pt-8">
               <img
@@ -47,77 +46,15 @@ const ProjectCards = () => {
               </div>
 
               <a
-                  href="https://github.com/kohchloe/WAD2-LifeBelowWater"
+                  href="#"
                   className="h-[36px] bg-primary hover:bg-secondary text-white my-1 py-2 rounded-lg text-center text-sm"
                   style-={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
                 >
-                  View GitHub Repository
+                  View Figma Prototype
               </a>
             </div>
           </div>
 
-          {/* <!-- Project Card 2 --> */}
-          <div class="card bg-base-100 w-98 shadow-xl">
-            <figure class="px-8 pt-8">
-              <img
-                src={sentiTunes}
-                alt="sentiTunes"
-                class="rounded-xl" />
-            </figure>
-            <div className="card-body">
-              <div>2023 | Machine Learning</div>
-              <h2 className="card-title text-primary">Sentiment Tunes</h2>
-              <p>Curating personalised Spotify playlists using a mood-based recommender system.</p>
-
-              <div className="border border-gray-100 mb-2"></div>
-
-              <div className="card-actions justify-left">
-                <div className="badge badge-outline">Machine Learning</div>
-                <div className="badge badge-outline">Data Mining</div>
-              </div>
-
-              <a
-                  href="https://github.com/kohchloe/DMBA-SentimentTunes"
-                  className="h-[36px] bg-primary hover:bg-secondary text-white my-1 py-2 rounded-lg text-center text-sm"
-                  style-={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
-                >
-                  View GitHub Repository
-              </a>
-            </div>
-          </div>
-
-
-          {/* <!-- Project Card 3 --> */}
-          <div class="card bg-base-100 w-98 shadow-xl">
-            <figure class="px-8 pt-8">
-              <img
-                src={merGIS}
-                alt="merGIS"
-                class="rounded-xl" />
-            </figure>
-            <div className="card-body">
-              <div>2022 | Geospatial Analysis</div>
-              <h2 className="card-title text-primary">Geographic Information Systems</h2>
-              <p>Analysing the impact of school mergers in Singapore.</p>
-
-              <div className="border border-gray-100 mb-2"></div>
-
-              <div className="card-actions justify-left">
-                <div className="badge badge-outline">QGIS</div>
-              </div>
-
-              <a
-                  href="https://mergis.netlify.app/"
-                  className="h-[36px] bg-primary hover:bg-secondary text-white my-1 py-2 rounded-lg text-center text-sm"
-                  style-={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
-                >
-                  View Website
-              </a>
-            </div>
-          </div>
-
-
-          {/* <!-- Project Card 4: SIA App Challenge --> */}
           <div class="card bg-base-100 w-98 shadow-xl">
             <figure class="px-8 pt-8">
               <img
@@ -143,14 +80,11 @@ const ProjectCards = () => {
                   className="h-[36px] bg-primary hover:bg-secondary text-white my-1 py-2 rounded-lg text-center text-sm"
                   style-={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
                 >
-                  View Figma Mockup
+                  View Figma Prototype
               </a>
             </div>
           </div>
 
-
-
-          {/* <!-- Project Card 5: PME --> */}
           <div class="card bg-base-100 w-98 shadow-xl">
             <figure class="px-8 pt-8">
               <img
@@ -176,38 +110,12 @@ const ProjectCards = () => {
                   className="h-[36px] bg-primary hover:bg-secondary text-white my-1 py-2 rounded-lg text-center text-sm"
                   style-={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
                 >
-                  View Figma Mockup
+                  View Figma Prototype
               </a>
             </div>
           </div>
 
-
-          {/* <!-- Project Card 6: DBTT --> */}
-          <div class="card bg-base-100 w-98 shadow-xl">
-            <figure class="px-8 pt-8">
-              <img
-                src={PME}
-                alt="PME"
-                class="rounded-xl" />
-            </figure>
-            <div className="card-body">
-              <div>2023 | Machine Learning</div>
-              <h2 className="card-title text-primary">Digital Business Transformation</h2>
-              <p>Improving food sustainability by reducing food waste in the F&B industry. Conducted EDA using various Python libraries (matplotlib, seaborn, hvplot) before utilising 3 regression models (Linear Regression, Random Forest, XGBoost) to predict the spoiling rate of food. Used computer vision (YOLOv5 model) to identity the type and cooking method of food.</p>
-
-              <div className="border border-gray-100 mb-2"></div>
-
-              <div className="card-actions justify-left">
-                <div className="badge badge-outline">EDA using Python</div>
-                <div className="badge badge-outline">Machine Learning</div>
-                <div className="badge badge-outline">Computer Vision</div>
-              </div>
-
-            </div>
-          </div>
-
-
-          {/* <!-- Project Card 7: IDP --> */}
+        
           <div class="card bg-base-100 w-98 shadow-xl">
             <figure class="px-8 pt-8">
               <img
@@ -234,48 +142,13 @@ const ProjectCards = () => {
                   className="h-[36px] bg-primary hover:bg-secondary text-white my-1 py-2 rounded-lg text-center text-sm"
                   style-={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
                 >
-                  View Figma Mockup
+                  View Figma Prototype
               </a>
 
             </div>
           </div>
 
-
-          {/* <!-- Project Card 8: CSS --> */}
-          <div class="card bg-base-100 w-98 shadow-xl">
-            <figure class="px-8 pt-8">
-              <img
-                src={CSS}
-                alt="CSS"
-                class="rounded-xl" />
-            </figure>
-            <div className="card-body">
-              <div>2022 | Web Scraping</div>
-              <h2 className="card-title text-primary">Computational Social Science</h2>
-              <p>Analysing American sentiments towards legalising recreational marijuana through scraping Tweets and Reddit posts with keywords in them. We first determined the timeframe using Google Trends, before scraping 76,000 tweets and 8,000 Reddit posts via APIs (tweepy, snscrape, praw, pushshiftapi). </p>
-
-              <div className="border border-gray-100 mb-2"></div>
-
-              <div className="card-actions justify-left">
-                <div className="badge badge-outline">Google Trends</div>
-                <div className="badge badge-outline">Web Scraping</div>
-                <div className="badge badge-outline">Data Cleaning</div>
-                <div className="badge badge-outline">Sentiment Analysis</div>
-              </div>
-
-              <a
-                  href="https://www.canva.com/design/DAGOBvn8FfU/9iqPwSU61VTi2HM-Vf2ixA/edit?utm_content=DAGOBvn8FfU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                  className="h-[36px] bg-primary hover:bg-secondary text-white my-1 py-2 rounded-lg text-center text-sm"
-                  style-={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
-                >
-                  View Slide Deck
-              </a>
-
-            </div>
-          </div>
-
-
-        </div>
+        </div> */}
       </div>
     </section>
     
