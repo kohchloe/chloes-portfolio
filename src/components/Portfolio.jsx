@@ -35,8 +35,8 @@ const Portfolio = () => {
                     My Development/ Analytics Projects
                 </h2>
                 <p className="text-black font-regular text-base lg:text-lg sm:w-5/6 mx-auto md:mx-0">
-                Over the years, I've dabbled in many projects ranging from web scrapping to web development.
-                    <br/><br/> Here are a few that I take great pride in: </p>
+                Over the years, I've dabbled in many projects ranging from web scrapping to web development to widen and enhance my skillset.
+                    <br/><br/> Here are some of my favourite projects: </p>
 
                 {/* <img
                   src={lbw}

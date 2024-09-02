@@ -24,7 +24,8 @@ const About = () => {
                     Hello, I'm Chloe!
                 </h1>
                 <p className="my-4 text-xl">
-                    I'm passionate about building design-centric products to improve everyday life.
+                I'm driven by a passion for design-centric products and leveraging technology to create meaningful solutions. 
+                <br/><br/>Scroll to find out more about my experiences and projects!
                 </p>
 
                 <div className="flex">

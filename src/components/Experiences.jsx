@@ -70,13 +70,13 @@ const Experiences = () => {
                         <li class="mb-10 ms-4">
                             <div class="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-black dark:border-gray-900 dark:bg-gray-700"></div>
                             <time class="mb-1 text-sm font-normal leading-none text-gray-600 dark:text-gray-500">Jan 2023 - Dec 2023</time>
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Vice-President @ Ellipsis (School of Computing and Information Systems Student Union)</h3>
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Vice-President @ SMU School of Computing and Information Systems Society</h3>
                             <p class="mb-4 text-base font-normal text-gray-600 dark:text-gray-400">I set the overall strategic direction for my committee to ensure the execution of 35 events while focusing on students’ feedback and managing stakeholder relations.</p>
                         </li>
                         <li class="mb-10 ms-4">
                             <div class="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-black dark:border-gray-900 dark:bg-gray-700"></div>
                             <time class="mb-1 text-sm font-normal leading-none text-gray-600 dark:text-gray-500">Jan 2022 - Dec 2022</time>
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Welfare Executive @ Ellipsis</h3>
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Welfare Executive @ SMU School of Computing and Information Systems Society</h3>
                             <p class="text-base font-normal text-gray-600 dark:text-gray-400">I planned and executed welfare initiatives for over 2,200 students, from sourcing to sponsors to distributing of collaterals.</p>
                         </li>
                     </ol>
