@@ -15,7 +15,7 @@ const Footer = () => {
             <p className="font-bold">
                 Let's connect!
             </p>
-            <div className="grid grid-flow-col gap-4">
+            <div className="grid grid-flow-col gap-4 mb-8">
             <a href="https://linkedin.com/in/chloekohjw" target="_blank" rel="noopener noreferrer">
                 <svg
                 xmlns="http://www.w3.org/2000/svg" 
