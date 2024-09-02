@@ -5,7 +5,7 @@ const Footer = () => {
     <section id="footer" className="footer footer-center bg-primary text-primary-content p-6 mt-14">
         <aside>
             <p className="font-bold">
-            Designed & development by Chloe Koh
+            Designed & developed by Chloe Koh
             <br />
             </p>
             <p>Using Vite, React.js, Tailwind CSS, DaisyUI.</p>
