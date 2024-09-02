@@ -1,34 +1,20 @@
 import React from 'react'
-// import Lottie from 'lottie-react'
-// import girlAnimation from '../assets/images/girl.json'
 import profile2 from '../assets/images/profile2.png'
 
 const About = () => {
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center">
-        {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center space-y-4"> */}
-            {/* Top section for profile picture
-            <div className="flex-shrink-0">
-                <img
-                    className="h-40 w-40 md:h-48 md:w-48 lg:h-56 lg:w-56 rounded-full"
-                    src={profile}
-                    alt="Profile picture"
-                />
-            </div> */}
+    <section id="about" className="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center">
 
-            
-            {/* <div className="text-center"> */}
-
-            <div className="text-left ml-20">
-                <h1 className="font-extrabold sm:text-3xl md:text-4xl lg:text-6xl">
+            <div className="text-center lg:text-left lg:ml-20">
+                <h1 className="font-extrabold sm:text-3xl md:text-5xl">
                     Hello, I'm Chloe!
                 </h1>
-                <p className="my-4 text-xl">
+                <p className="my-4 sm:text-sm md:text-lg lg:text-xl">
                 I'm driven by a passion for design-centric products and leveraging technology to create meaningful solutions. 
-                <br/><br/>Scroll to find out more about my experiences and projects!
+                <br/><br/>Scroll to find out more about my experiences and projects.
                 </p>
 
-                <div className="flex">
+                <div className="flex justify-center lg:justify-start">
                     <a href="https://linkedin.com/in/chloekohjw" target="_blank" rel="noopener noreferrer" className='pr-2'>
                         <svg
                         xmlns="http://www.w3.org/2000/svg" 
@@ -71,11 +57,7 @@ const About = () => {
                 </div>
             </div>
 
-            {/* <div style={{ maxWidth: '50%' }} className="mr-10">
-                <Lottie animationData={girlAnimation} />
-            </div> */}
-
-            <div style={{ maxWidth: '30%' }} className="mr-10">
+            <div style={{ maxWidth: '30%' }} className="lg:mr-10">
                 <img
                     src={profile2}
                     alt="Profile picture"

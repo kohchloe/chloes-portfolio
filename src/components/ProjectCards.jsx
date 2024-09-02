@@ -13,10 +13,10 @@ const ProjectCards = () => {
     <section id='projects'>
       <div className="container-xl lg:container m-auto py-10">
         <div className="text-center">
-          <h2 className="text-4xl pt-10 pb-4 font-bold sm:text-5xl md:text-6xl">
+          <h2 className="text-4xl pt-10 pb-4 font-bold sm:text-2xl md:text-5xl">
               My Design Portfolio
           </h2>
-          <p className="text-black font-regular text-base lg:text-lg mx-auto md:mx-0">I believe good design is the cornerstone of every project, check out some of my design works here ◡̈</p>
+          <p className="text-black font-regular text-base lg:text-lg mx-8">I believe good design is the cornerstone of every project, check out some of my design works here ◡̈</p>
         </div>
 
         {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 rounded-lg">

@@ -10,11 +10,6 @@ import SIA from '../assets/images/SIA.png'
 import PME from '../assets/images/PME.png'
 
 const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 4
-    },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3
@@ -31,7 +26,7 @@ const responsive = {
 
 const DesignCarousel = () => {
     return (
-        <Carousel responsive={responsive}>
+        <Carousel responsive={responsive} className="mx-10">
             <div>
                 <CarouselCard
                 mockup={lifeBelowWater}

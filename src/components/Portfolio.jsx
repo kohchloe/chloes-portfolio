@@ -6,10 +6,7 @@ import PortfolioCard from "./PortfolioCard"
 import lbw from '../assets/images/lifeBelowWater.png'
 import mergis from '../assets/images/merGIS.png'
 import senti from '../assets/images/sentiTunes.png'
-import mb from '../assets/images/munchBunch.png'
 import css from '../assets/images/CSS.png'
-import sia from '../assets/images/SIA.png'
-import pme from '../assets/images/PME.png'
 
 const Portfolio = () => {
     const { ref: myRef, inView: myElementIsVisible } = useInView({
@@ -31,8 +28,8 @@ const Portfolio = () => {
                   myElementIsVisible ? "appear" : ""
                 }`}
               >
-                <h2 className="text-black text-4xl pt-10 font-bold sm:text-5xl md:text-6xl">
-                    My Development/ Analytics Projects
+                <h2 className="text-black pt-10 font-bold sm:text-2xl md:text-5xl">
+                    My Analytics & Development Projects
                 </h2>
                 <p className="text-black font-regular text-base lg:text-lg sm:w-5/6 mx-auto md:mx-0">
                 Over the years, I've dabbled in many projects ranging from web scrapping to web development to widen and enhance my skillset.
