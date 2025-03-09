@@ -14,11 +14,11 @@ const Portfolio = () => {
     });
   
     return (
-      <div id="showcase" className="py-8 text-secondary">
+      <div id="showcase" className="py-12 text-secondary">
 
         <section
           id="development"
-          className="max-w-screen-xl mx-auto px-4 md:px-4 space-y-24"
+          className="max-w-screen-xl mx-auto px-6 md:px-8 space-y-32"
         >
           <article className="space-y-24 md:space-y-0 md:grid grid-cols-2">
             <div id="header" className="">
