@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import tabIcon from '../assets/images/tabIcon.png';
+import tabIcon from '../assets/images/tabIcon2.png';
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"; // Import XMarkIcon for closing the menu
 
 const Navbar = () => {

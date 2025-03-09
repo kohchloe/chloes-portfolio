@@ -3,7 +3,7 @@ import React from 'react'
 const Experiences = () => {
   return (
     <section id='experiences'>
-        <div className="container mx-auto py-10">
+        <div style={{ maxWidth: '80%' }} className="container mx-auto py-10">
 
             <h2 className="text-center text-4xl py-10 font-bold sm:text-2xl md:text-5xl">
                 My Experiences
@@ -11,7 +11,7 @@ const Experiences = () => {
             
             {/* Tabs */}
             <div role="tablist" className="tabs tabs-bordered">
-            <span class="tab w-[calc((100vw-25vw)/2)]">&nbsp;</span>
+            <span class="tab w-[calc((100vw-30vw)/2)]">&nbsp;</span>
 
                 <input
                     type="radio"
@@ -23,7 +23,13 @@ const Experiences = () => {
                 <div role="tabpanel" className="tab-content p-10">
                     
                     {/* Timeline for Tab 1 */}
-                    <ol class="relative border-s border-gray-600">                  
+                    <ol class="relative border-s border-gray-600">    
+                        <li class="mb-10 ms-4">
+                            <div class="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-black"></div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-600">Dec 2024 - Present</time>
+                            <h3 class="text-base md:text-lg font-semibold text-gray-900">Product Manager Intern @ PRISM+</h3>
+                            <p class="mb-4 text-sm md:text-base text-gray-600">I improved a smart home app's user experience by analysing customer insights, enhancing features, and refining product strategy through research and competitor analysis.</p>
+                        </li>              
                         <li class="mb-10 ms-4">
                             <div class="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-black"></div>
                             <time class="mb-1 text-sm font-normal leading-none text-gray-600">Dec 2023 - Jan 2024</time>
@@ -36,20 +42,20 @@ const Experiences = () => {
                             <h3 class="text-base md:text-lg font-semibold text-gray-900">Product Manager @ SMU Product Club</h3>
                             <p class="text-sm md:text-base text-gray-600">I conducted comprehensive user and product discovery efforts for a new feature within Grab — GrabCompare; eventually winning 1st Place in the Internal Product Challenge!</p>
 
-                            <a href="https://drive.google.com/file/d/1BoZMb1oteQ5xW1lpN6gvNI2b9RYCQX_X/view?usp=sharing" target="_blank" class="inline-flex items-center px-4 py-2 mt-2 button-rounded text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700">
+                            {/* <a href="https://drive.google.com/file/d/1BoZMb1oteQ5xW1lpN6gvNI2b9RYCQX_X/view?usp=sharing" target="_blank" class="inline-flex items-center px-4 py-2 mt-2 button-rounded text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700">
                                 View Winning Pitch Deck<svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg></a>        
+                            </svg></a>         */}
                         </li>
                         <li class="mb-10 ms-4">
                             <div class="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-black"></div>
                             <time class="mb-1 text-sm font-normal leading-none text-gray-600">May 2023 - Aug 2023</time>
                             <h3 class="text-base md:text-lg font-semibold text-gray-900">Business Analyst Intern @ Accenture</h3>
                             <p class="text-sm md:text-base text-gray-600">I optimised dashboards, created solution architecture diagrams, and designed process flow diagrams for my client.</p>
-                            <a href="https://www.accenture.com/content/dam/accenture/final/a-com-migration/r3-3/pdf/pdf-177/accenture-changi-airport-client-story.pdf" target="_blank" class="inline-flex items-center px-4 py-2 mt-2 button-rounded text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700">
+                            {/* <a href="https://www.accenture.com/content/dam/accenture/final/a-com-migration/r3-3/pdf/pdf-177/accenture-changi-airport-client-story.pdf" target="_blank" class="inline-flex items-center px-4 py-2 mt-2 button-rounded text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700">
                                 Learn More<svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg></a>    
+                            </svg></a>     */}
                         </li>
                         <li class="ms-4">
                             <div class="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-black"></div>
