@@ -127,6 +127,7 @@ const About = () => {
                     src={tabIcon}
                     alt="Profile picture"
                     className="relative z-10 w-full h-full object-cover"
+                    style={{ transform: 'scaleX(-1)' }}
                 />
             </div>
 
